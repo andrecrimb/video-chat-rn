@@ -102,3 +102,42 @@ dist
 
 # TernJS port file
 .tern-port
+
+# source map related files
+ios/main.jsbundle
+ios/main.jsbundle.map
+ios/main.jsbundle.meta
+main.jsbundle.map
+
+# Xcode
+#
+ios/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/Pods/
+fastlane/report.xml
+
+# Android/IntelliJ
+#
+android/app/build/
+android/build/
+android/app/gradle.properties
+.idea
+.gradle
+local.properties
+*.iml
+
+vendor

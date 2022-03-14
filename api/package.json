@@ -1,0 +1,21 @@
+{
+  "name": "video-chat-api",
+  "version": "1.0.0",
+  "description": "API for video chat app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "peer": "^0.6.1",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
